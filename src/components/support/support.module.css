@@ -1,0 +1,64 @@
+.support {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25rem;
+  align-items: center;
+  position: relative;
+}
+.support h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #272d4e;
+}
+.support p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #94a2b3;
+  text-align: center;
+  width: 40%;
+  margin-top: 31px;
+}
+.backImg,
+.backImg2 {
+  width: 70%;
+  position: absolute;
+  z-index: -1;
+  top: 10rem;
+}
+.backImg {
+  top: 15rem;
+  width: 90%;
+}
+.backImg3 {
+  position: absolute;
+  right: 5rem;
+  top: 20rem;
+  z-index: -2;
+  width: 29vw;
+}
+.backImg4 {
+  z-index: -2;
+  position: absolute;
+  left: 11rem;
+  top: 15rem;
+  width: 13vw;
+  transform: rotate(90deg);
+}
+.backImg5{
+ position: absolute;
+ left: 5rem;
+ width: 4vw;
+ bottom: -10rem;
+}
+.backImg6{
+ position: absolute;
+ left: 10rem;
+ width: 2vw;
+ bottom: -13rem;
+}
+.backImg7{
+ position: absolute;
+ right: 12rem;
+ width: 3vw;
+ bottom: -6rem;
+}

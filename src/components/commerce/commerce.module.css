@@ -1,0 +1,64 @@
+.commerce{
+ display: flex;
+ align-items: center;
+flex-direction: column;
+}
+.commerce h1{
+ color: #272D4E;
+ font-size: 45px;
+ font-weight: 700;
+ width: 30%;
+ text-align: center;
+}
+.card h3,.card2 h3,.card3 h3{
+ font-size: 30px;
+ font-weight: 700;
+ margin-bottom: 5px;
+}
+.card p,.card2 p,.card3 p{
+ font-size: 15px;
+ font-weight: 400;
+ color: #94A2B3;
+ margin-bottom: 25px;
+}
+.cardImg{
+ width: 500px;
+}
+.cardImg2{
+ width: 400px;
+}
+.cardImg3{
+ width: 450px;
+}
+.card,.card2,.card3{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.card2{
+ margin-top: 5rem;
+}
+.card3{
+ margin-top: 8rem;
+}
+.card a,.card2 a,.card3 a{
+ text-decoration: none;
+ color: #299EF3;
+}
+.cardTexts{
+ padding-left: 5rem;
+ width: 70%;
+}
+.cardTexts3{
+ width: 80%;
+}
+.cardTexts2{
+ width: 70%;
+ padding-left: 1rem;
+}
+.cards{
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+}

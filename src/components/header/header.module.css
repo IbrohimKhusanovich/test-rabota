@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  margin: 0;
+  margin-left: auto;
+  position: relative;
+}
+.backNuqta1,
+.backNuqta2,
+.backNuqta3 {
+  position: absolute;
+  right: 0;
+  z-index: -2;
+  width: 230px;
+}
+.backNuqta1 {
+  top: 0;
+  right: 7.5rem;
+}
+.backNuqta2 {
+  top: 13.15rem;
+  right: 0rem;
+}
+.backNuqta3 {
+  top: 2rem;
+  right: 18rem;
+  transform: rotate(90deg);
+}
+.btnIcon,.btnIcon2,.btnSale {
+  color: #fff;
+  background-color: #ef4358;
+  padding: 10px 30px;
+  border-radius: 30px;
+  width: max-content;
+  font-size: 30px;
+  position: absolute;
+  right: 3rem;
+  top: 30rem;
+}
+.btnIcon2{
+  padding: 12px 16px;
+  background-color: #ffba49;
+right: 33rem;
+top: 25rem;
+}
+.smileGirls{
+  border-radius: 20px;
+  position: absolute;
+  top:4rem;
+  user-select: none;
+  right: 21rem;
+}
+.btnSale{
+  letter-spacing: 10px;
+  padding: 12px 16px;
+  background-color: #70c217;
+  font-size: 20px;
+  right: 10rem;
+  top: 7rem;
+}
+.headProduct {
+  position: absolute;
+  right: 0;
+  top: 6rem;
+  width: 567px;
+  height: 421px;
+}
+.maskGroup {
+  position: absolute;
+  right: 10rem;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  background-color: #fff;
+  border-radius: 23px;
+  top: 25rem;
+  width: 350px;
+}
+.headRight {
+  width: 50%;
+}
+.headRight:not(textarea){
+  user-select: none;
+}
+.backHeader {
+  width: 100%;
+  position: relative;
+  bottom: 11em;
+  z-index: -3;
+}
+.headLeft h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.leftText {
+  font-size: 15px;
+  width: 70%;
+  margin-top: 29px;
+  font-weight: 400;
+  color: #94a2b3;
+}
+.headLeft {
+  width: 50%;
+  margin-top: 5rem;
+}
+.btnHead {
+  background: #7854f7;
+  border-radius: 60px;
+  padding: 20px 52px;
+  border: none;
+  color: #fff;
+  margin-right: 12px;
+}
+.btnPanel {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 31px;
+}
+.btnPanel a {
+  text-decoration: none;
+  color: #299ef3;
+  font-weight: 700;
+}
+.btnPanel a span {
+  color: #94a2b3;
+  font-weight: 500;
+}

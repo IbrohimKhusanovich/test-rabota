@@ -1,0 +1,118 @@
+.card {
+  background: url(../../assets/”.svg), #fff;
+  background-size: 30%;
+  background-position: center 2rem;
+  background-repeat: no-repeat;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  border-radius: 20px;
+  width: 530px;
+  position: relative;
+  bottom: 28px;
+  right: 1.5rem;
+  padding: 80px 82px;
+  padding-top: 106px;
+}
+.card2,
+.cards {
+  box-shadow: 0px 18px 52.85371780395508px 0px #d7e4f980;
+  border-radius: 20px;
+  width: 478px;
+  position: relative;
+  right: 1.5rem;
+  bottom: 20px;
+  background: #fff;
+}
+.cards {
+  width: 418px;
+  top: 10rem;
+}
+.card p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  color: #94a2b3;
+}
+.clientsSay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 240, 253, 0) 0%,
+    rgba(236, 240, 253, 0.53) 14.32%,
+    #ecf0fd 45.83%,
+    rgba(236, 240, 253, 0.43) 84.33%,
+    rgba(236, 240, 253, 0) 100%
+  );
+  margin-top: 100px;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.clientsSay h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  width: 32%;
+  color: #272d4e;
+}
+.backImg1,.backImg2{
+  position: absolute;
+}
+.backImg1{
+  transform: rotate(90deg);
+  bottom: -18rem;
+  left: 30rem;
+  width: 11vw;
+}
+.backImg2{
+  width: 22vw;
+  bottom: 0;
+  right: 26rem;
+}
+.icons{
+  display: flex;
+  position: relative;
+  top: 12rem;
+  left: 8rem;
+  font-size: 28px;
+  align-items: center;
+}
+.icon1{
+  font-size: 20px;
+  opacity: .4;
+  margin-right: 1rem;
+}
+.icons {
+  cursor: pointer;
+}
+.backImg3{
+  position: absolute;
+  left: 17rem;
+  top: 6rem;
+}
+.backImg4{
+  position: absolute;
+  right: 20rem;
+  top: 5rem;
+}
+.backImg5{
+  position: absolute;
+  left: 2rem;
+  top: 19rem;
+}
+.backImg6{
+  position: absolute;
+  right: 10rem;
+  top: 20rem;
+}
+.backImg7{
+  position: absolute;
+  left: 12rem;
+  bottom: -12rem;
+}
+.backImg8{
+  position: absolute;
+  right: 21.5rem;
+  bottom: -15rem;
+}

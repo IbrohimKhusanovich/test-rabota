@@ -1,0 +1,31 @@
+.iconWiFi {
+  transform: rotate(40deg);
+  font-size: 17px !important;
+}
+.icons svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+.icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linksPanel {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #272d4e;
+}
+.linksPanel p{
+ font-size: 14px;
+ cursor: pointer;
+}
+.linksPanel p span {
+  text-decoration: underline;
+
+}
